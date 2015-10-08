@@ -1,4 +1,5 @@
 # Site settings
+exclude: [vendor]
 title: 深夜遇見華陰街
 email: conv.k34o72rmaia4e6@fleep.io
 #baseurl: "/blog" # the subpath of your site, e.g. /blog/
