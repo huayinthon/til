@@ -1,5 +1,9 @@
 # huayinthon.github.io
 
+
+[![build status](https://travis-ci.org/huayinthon/huayinthon.github.io.svg)](http://travis-ci.org/huayinthon/huayinthon.github.io)
+
+
 ## 發表文章
 
 由此進入 [發表文章]，請以日期與標題來建立新檔名，文章會自動生成於[huayinthon.github.io]。內部文章是以 markdown 語法，可以參考下面連結。
