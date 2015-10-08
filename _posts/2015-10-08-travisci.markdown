@@ -5,4 +5,4 @@ date:   2015-10-08 12:12:24
 categories: TIL
 ---
 
-加入 `.travis.tml` 並且部署到 suege.sh - jason
+加入 `.travis.yml` 並且部署到 surge.sh - jason
