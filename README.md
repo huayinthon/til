@@ -13,7 +13,7 @@
 conv.k34o72rmaia4e6@fleep.io
 
 [發表文章]: https://github.com/huayinthon/huayinthon.github.io/tree/master/_posts
-[huayinthon.github.io]: huayinthon.github.io
+[huayinthon.github.io]: https://huayinthon.github.io
 # Member
 Julien, Kevin, Jason
 
