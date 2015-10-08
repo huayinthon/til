@@ -1,0 +1,14 @@
+# Site settings
+title: 華陰黑客松
+email: conv.k34o72rmaia4e6@fleep.io
+#baseurl: "/blog" # the subpath of your site, e.g. /blog/
+url: "http://huayinthon.github.io" # the base hostname & protocol for your site
+github_username:  huayinthon
+permalink: pretty
+markdown: rdiscount
+highlighter: pygments
+encoding: utf-8
+timezone: Asia/Taipei
+google_analytics: UA-68409135-1
+gems:
+  - jekyll-redirect-from
