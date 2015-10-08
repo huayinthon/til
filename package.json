@@ -2,10 +2,8 @@
   "name": "huayinthon",
   "version": "0.0.1",
   "description": "fun",
-  "main": "index.js",
   "scripts": {
-    "up": "surge -d huayinthon.surge.sh -p _site",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified.\""
   },
   "repository": {
     "type": "git",
@@ -16,11 +14,10 @@
   ],
   "author": "ctchen@fleep.io, julienjazz@fleep.io, xian.yu@fleep.io",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/huayinthon/huayinthon.github.io/issues"
-  },
-  "homepage": "https://github.com/huayinthon/huayinthon.github.io#readme",
   "dependencies": {
+    "surge": "^0.15.0"
+  },
+  "devDependencies": {
     "surge": "^0.15.0"
   }
 }
