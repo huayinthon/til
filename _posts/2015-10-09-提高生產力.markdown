@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "提高生產力"
-date:   2015-10-08 12:12:24
+date:   2015-10-09 11:13:24
 categories: TIL
 ---
 讀了一本 `Scott Young` 寫的書 `Learn More, Study Less`，其中有這章節是 `project-based learning` 的一種自我學習策略，具有這樣能力的人幾乎已經不需要透過學校的教育系統。
