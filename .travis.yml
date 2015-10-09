@@ -16,3 +16,6 @@ after_success:
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of
+  
+notifications:
+  webhooks: https://fleep.io/hook/c2hDYM8KQXGaqXSHqrkOvg
