@@ -1,8 +1,7 @@
-# huayinthon.github.io
+[<img width="678" alt="" src="https://cloud.githubusercontent.com/assets/15030430/10376547/f5c054a6-6e30-11e5-9b38-c9bde118c5d1.png">](http://huayinthon.github.io)
 
 
 [![build status](https://travis-ci.org/huayinthon/huayinthon.github.io.svg)](http://travis-ci.org/huayinthon/huayinthon.github.io)
-
 
 ## 發表文章
 
@@ -16,9 +15,12 @@
 ## 與團隊哈拉
 conv.k34o72rmaia4e6@fleep.io
 
+
 [發表文章]: https://github.com/huayinthon/huayinthon.github.io/tree/master/_posts
 [huayinthon.github.io]: https://huayinthon.github.io
-# Member
+
+[<img width="300" alt="" src="https://cloud.githubusercontent.com/assets/15030430/10376612/576852ee-6e31-11e5-9b99-968814d5bf04.png">](http://huayinthon.github.io)
+ 
 Julien, Kevin, Jason
 
 # License
