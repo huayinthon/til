@@ -6,8 +6,8 @@ https://www.vagrantup.com/downloads.html
 
 # 設定 git 並且 clone 專案
 
-`git config --global user.name "ZXZXZ XXZXZ"`
-`git config --global user.email johndoe@example.com`
+`git config --global user.name "Put Your Name"`
+`git config --global user.email Put@Your Email Here`
 `git clone https://github.com/huayinthon/huayinthon.github.io.git ~/blog`
 
 # 啟動 vagrant 並 ssh 登入 vagrant box
@@ -25,3 +25,12 @@ https://www.vagrantup.com/downloads.html
 
 `http://127.0.0.1:8808/`
 
+# 可選擇刪除 vagrant destroy 環境
+
+`cd ~/blog`
+`vagrant destroy`
+
+# 可選擇保留 vagrant halt 環境
+
+`cd ~/blog`
+`vagrant halt`
