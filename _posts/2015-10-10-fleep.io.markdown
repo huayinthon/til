@@ -1,0 +1,52 @@
+---
+layout: post
+title:  "適用 fleep.io 一陣子後"
+date:   2015-10-09 11:13:24
+categories: TIL
+---
+
+# 結論
+
++ 適用：small team、agile team、hackthon、Project Driven team
+
+# fleep.io
+
++ fleep.io 註冊後，會提供一個 fleep.io 的郵件信箱
+
+# webhook 整合
+
++ 簡單夠用：github、bitbucket、Gitlab SCM、New Relic 
+
+# 信箱整合
+
++ 免另外再開一個 mail client 就是爽
+
+# 多平台整合
+
++ android、ios、web、desktop(mac\windows\linux)
+
+# pin board 
+
++ 可以把對話訊息 pin 到看板上，可以做 daily standup ..
+
+# task board
+
++ 檔案櫃：有預覽功能、可以下載、分享或是在聊天室內 mention 
+
+# 聊天室
+
++ 安全性：新加入的成員，可以選擇是否讓他看到之前的訊息。所以是全面的公開或是時間區段式的顯示訊息 ..
+
++ Link Previews：當有 url 貼上來，是否會自動預覽 url 內容
+
++ conversation email：聊天室會有專屬的 email 可以用 email 把訊息與外部連接，確保工具的開放與中立
+
++ 指令：一些功能可以 irc like 的 /action 
+
++ 格式：formating 很簡單，可以就能貼 code
+
+# 心得
+
++ 簡單好用，適合專案型團隊使用
+
+
