@@ -10,6 +10,6 @@ apt-get -y install curl
 
 apt-get -y install build-essential git ruby1.9.3 nodejs rubygems screen
 
-gem install jekyll --no-ri --no-rdoc
-gem install jekyll-redirect-from --no-ri --no-rdoc
+sudo gem install jekyll --no-ri --no-rdoc
+sudo gem install jekyll-redirect-from --no-ri --no-rdoc
 gem install rdiscount --no-ri --no-rdoc
