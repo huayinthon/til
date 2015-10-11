@@ -8,7 +8,7 @@ apt-get -y install curl
 
 # You can install anything you need here.
 
-apt-get -y install build-essential git ruby nodejs screen rubygems-integration
+apt-get -y install build-essential git ruby1.9.4 nodejs screen rubygems-integration
 
 sudo gem install jekyll --no-ri --no-rdoc
 sudo gem install jekyll-redirect-from --no-ri --no-rdoc
