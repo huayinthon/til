@@ -1,9 +1,9 @@
 # Site settings
 exclude: [vendor]
 title: 深夜遇見華陰街
-email: conv.k34o72rmaia4e6@fleep.io
+email: support@huayinthon.xyz
 #baseurl: "/blog" # the subpath of your site, e.g. /blog/
-url: "http://huayinthon.github.io" # the base hostname & protocol for your site
+url: "http://sdn.huayinthon.xyz" # the base hostname & protocol for your site
 github_username:  huayinthon
 permalink: pretty
 markdown: rdiscount

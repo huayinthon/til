@@ -11,7 +11,7 @@ categories: TIL
 - 1.install Ruby x64 on Win8.1 
 - 2.install Ruby DevKit on Win8.1
 - 3.Install the Jekyll Gem
-- 4.Use Jekyll sample from "huayinthon.github.io"
+- 4.Use Jekyll sample from "til"
 - 5.Win Cmd to Folder and run jekyll server
 
 可能出現的錯誤:
