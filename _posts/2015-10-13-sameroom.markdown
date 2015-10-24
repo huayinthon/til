@@ -1,0 +1,46 @@
+---
+layout: post
+title:  "sameroom.io 導入心得"
+date:   2015-10-13 16:00:24
+categories: TIL
+---
+sameroom.io 致力於打破聊天平台的圍牆，目前支援了下列的1:1服務串接：
+
++ Facebook
++ Google Hangouts
++ Skype
++ Telegram
++ Intercom
++ Slack
++ HipChat
++ IRC
++ Gitter
++ Fleep
++ Flowdock
++ Campfire
++ Cotap
+
+大致上就底下的幾個功能：
+
+# Accounts
++ https://sameroom.io/accounts
+管理帳號密碼
+
+# Open a Tube
++ https://sameroom.io/open-a-tube 
+串接
+
+# Create a Portal
++ https://sameroom.io/create-a-portal
+有時候你沒有 skype 帳號，所以 skype 的人就見一個 portal，交給你！你用慣用的 Tube 與這個 portal 串接，譬如 IRC 上的某個 Node 這樣就能跨 platform 對話。
+
+# Manage
++ https://sameroom.io/manage
+
+簡易的狀態顯示，簡易的開關與連接狀態
+
+# 結論
+
+可以做許多有趣的事情，譬如搭配 gcat 或 twittor 下指令！咦 🐷
+
+

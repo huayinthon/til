@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Time Buddy時區轉換工具"
+date:   2015-10-15 19:30:00
+categories: TIL
+---
+活在同一個時區內，忘了怎麼時區的切換。
+
+最近與朋友開會，因為時區不同，試用了一個方便的工具還蠻不錯的～
+
+[time buddy]http://www.worldtimebuddy.com/mobile-app
+
+設下時區，加入行事曆就能完成！
+
+例如：
+PST/PDT Thu 11:30 AM / PST Fri 13:00 PM
+
+轉成CST Fri 02:30 AM / CST Fri 04:00 AM
+
+

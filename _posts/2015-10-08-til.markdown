@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Today I learned"
+date:   2015-10-08 12:12:24
+categories: TIL
+---
+Today I Learned([TIL])，算是 [reddit] 上一個主流的分享，會紀錄自己當天所學習到的項目是一種目標導向的策略，透過分享作為激勵的動機，並透過發表達到成果的紀錄。算是一種自我管理與團隊凝聚的運作方式。
+
+[TIL]:      https://www.reddit.com/r/todayilearned/
+[reddit]:      https://reddit.com/
