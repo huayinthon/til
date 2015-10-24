@@ -1,0 +1,116 @@
+---
+layout: post
+title:  "atlas.hashicorp.com 導入心得"
+date:   2015-10-12 16:00:24
+categories: TIL
+---
+
+atlas.hashicorp.com 產品服務大致如下
+
++ vagrant
++ packer
++ Consul
++ Terraform
+
+# Vagrant 
+
+## 支援多種 provider
+
++ virtualbox
++ vmware
++ Hyper-V
++ Docker 
++ 保留客製化可能性
+
+## VM Box 
+
+存在 atlas.hashicorp.com 上，可以自訂公開或是私人使用
+
+## Share
+
+可以分享 Vagrant 內的服務，這蠻屌的常用
+
+基本上就是 socat tunnel
+
+# Packer 
+
+## 定義了 box build 服務
+
+提供客製化 box 的能力，產出 Vagrant box 與 github 整合可以 commit trigger build ..
+
+## 定義 application 打包 
+
+使用 Makefile 建檔，產出 tar.gz 檔，可在 Build 過程中注射到特定的 Box Template 之中
+也能用 atlas-upload-cli 上傳獲釋 Vagrantfile 定義 push 
+
+```
+config.push.define "atlas" do |push|
+  push.app = "acmeinc/webapp"
+end
+```
+## 與 Github 整合
+
+可以串接 Web Hook 
+
+## build template 採用 jsno 格式
+
+易讀易懂
+
+Reference：
++ https://github.com/chef/bento
+
+# Consul
+
+透過 client 安裝 consul agent ..
+用來服務監控、縮放叢集、服務註冊，主要是服務狀態的分散式儲存跟 raft 演算法的實現來監控狀態
+
+## CONSENSUS 通訊協定
+
+raft
+
+## Jepsen Testing
+
+Kyle Kingsbury 寫的工具，用來分區測試隨機操作的模糊系統，拿來分析系統是否有高容錯與一致性 ..
+
+## GOSSIP PROTOCOL(atlas 上叫做 auto join)
+
+consul 自己研發的協議，用來維護會員與對叢集廣播 
+
+常被拿來跟 etcd 比較，不過兩者差不多都是 raft 的實作 ..
+
+## 報錯通知
+
+slack、hipchat、Pagerduty、Email
+
+# Terraform 
+
+Scope 更廣，以跨 infrastructure provider 的變動，所以會記錄多種混合式的 infrastructure 狀態。
+
+## RUN
+
+簡單說就是 git add change + git push 
+
+## PLAN -> git add 
+
+安全模式的 RUN 會生出一個變動的檔案，算是 infrastructure 的異動預覽。像是 git add 的狀態 ..
+
+## APPLY -> git push 
+
+來真的了，如果 PLAN 階段沒預期到的事情，這邊就會出事了。也就是 git push 了 ..
+
+## Artifacts
+
+支援幾乎常見的格式：
++ ami
++ digital ocean
++ docker
++ open stack
++ gcp
++ paralles
++ vbox
++ vmware
++ vagrant 
+
+
+
+ 

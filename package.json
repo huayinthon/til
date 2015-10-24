@@ -1,0 +1,23 @@
+{
+  "name": "huayinthon",
+  "version": "0.0.1",
+  "description": "fun",
+  "scripts": {
+    "test": "echo \"Error: no test specified.\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huayinthon/huayinthon.github.io.git"
+  },
+  "keywords": [
+    "hackthon"
+  ],
+  "author": "ctchen@fleep.io, julienjazz@fleep.io, xian.yu@fleep.io",
+  "license": "ISC",
+  "dependencies": {
+    "surge": "^0.15.0"
+  },
+  "devDependencies": {
+    "surge": "^0.15.0"
+  }
+}
