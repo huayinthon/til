@@ -11,7 +11,7 @@ before_script:
 script: ./script/cibuild
 
 after_success:
-  - ./node_modules/.bin/surge --project ./_site --domain huayinthon.surge.sh
+  - ./node_modules/.bin/surge --project ./_site --domain sdn.huayinthon.xyz
 
 env:
   global:
