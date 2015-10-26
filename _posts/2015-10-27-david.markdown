@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "david dm"
-date:   2015-10-27 12:11:00
+date:   2015-10-27 06:55:00
 categories: TIL
 ---
 https://david-dm.org/
@@ -28,13 +28,12 @@ satisfies() ---> david-dm.org
 
 http://shields.io
 
-'''
-Dashes -- 	→ 	- Dash
-Underscores __ 	→ 	_ Underscore
-_ or Space   	→ 	  Space 
-'''
+> Dashes -- 	→ 	- Dash
+> Underscores __ 	→ 	_ Underscore
+> _ or Space   	→ 	  Space 
 
-https://img.shields.io/badge/<SUBJECT>-<STATUS>-<COLOR>.svg 
+
+> https://img.shields.io/badge/<SUBJECT>-<STATUS>-<COLOR>.svg 
 
 erlang - hex.pm
 rust - Crates.io
