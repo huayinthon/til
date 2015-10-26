@@ -10,12 +10,30 @@ categories: TIL
 + aws
 + azure
 + rackspace
-+ aliyun
 + gce
 + SoftLayer
 + Joyent
 + Dell Cloud
++ aliyun
 
 突然想到以前的 mainframe 怎麼死的，現在只存在計算機歷史博物館之中。也許看來現在只有科學運算能有這樣的需求？
 
 此外還是很大量的浪費
+
+china
+
++ daocloud (道客雲) 
++ aluadacloud (靈雀雲)
++ tenxcloud (時速雲)
++ csphere (希雲)
++ dataman (數人科技)
+
+國外
++ stackengine
++ cloud66
++ rancher
+
+管理
++ tutum
++ nicescale
+
