@@ -23,3 +23,6 @@ https://www.facebook.com/UrbanPrototyping
 都市規劃實驗區，透過這種快速 prototyping 與分享！ 
 可以知道若能滿足時，便可以進到導入或是改造。
 
+我蠻喜歡這個站的
+http://cp.media.mit.edu/workshops/
+
