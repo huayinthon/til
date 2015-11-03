@@ -1,0 +1,48 @@
+---
+layout: post
+title:  "david dm"
+date:   2015-10-27 06:55:00
+categories: TIL
+---
+https://david-dm.org/
+
+david dm 兩年多前推出，主要是推廣語意版號的近版規則 SemVer NPM module，而 david dm 會檢查 config/default.json, packages.json 裡頭的相依關係是否有更新到最新穩定版，是一種主動檢查的完備機制。NPM module 會傳出一個 satisfies 函數的布林結果，這結果來自於 NPM module 的 SemVer 檢查。而 david 會需要知道 "相依的最新版本" 是什麼？
+
+satisfies() ---> david-dm.org
+
+說明：
+
+假設有個某個專案對 foo 會有相依，指定相依狀態指定的版本是 ~0.6.1.1。
+這表示版本大於等於 >=0.6.1 到小於 <0.7.0 都可以！
+
+實際上 foo 現在的有效版本是[ 0.6.0, 0.6.1-1]，其中最新穩定版是 0.6.0，所以這不太代表這個專案的相依性是最新的。
+
+因此版本之外，David = 最新+相依 就是確保這套件的相依是在最新版本，而不是在專案本身的限制。
+
+自言自語：
+
+專案 foo 與相依的設定，像是食譜的描述一樣，依照這些順序與對應需要的食材一起放入烹煮，應該都可以煮出一道美食。但是怎麼確保這個美食最美味呢？那便是食材新鮮，這個 david dm 像是生產履歷一樣，確保專案內的相依，都是來自新鮮的農廠直送！也就是食譜雖然定義了許多烹煮經驗，但是這個消費生態體系裡頭，不只是需要食材、食譜而已，還需要有個能將生態體系中的"時間"更高抽象化的提出來作為確保，讓食材、食譜的結合能夠最佳，那便是相依性最佳化的目標了。
+
+附註：
+很多人都喜歡 github 上的一些貼紙，而這些貼紙的 URL 格式可以參考底下的
+
+http://shields.io
+
+> Dashes -- 	→ 	- Dash
+> Underscores __ 	→ 	_ Underscore
+> _ or Space   	→ 	  Space 
+
+
+> https://img.shields.io/badge/<SUBJECT>-<STATUS>-<COLOR>.svg 
+
+erlang - hex.pm
+rust - Crates.io
+apm - vim
+dub - dlang
+NuGet - visual studio
+MyGet - NuGet hosting
+npm
+gem
+PyPI
+node
+

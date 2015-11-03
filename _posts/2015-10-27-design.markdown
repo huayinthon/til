@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "設計名詞"
+date:   2015-10-27 12:11:00
+categories: TIL
+---
+設計類的名詞挺多的
+
++ Mockup UI
++ Wireframe
++ phototype
++ Userflow
++ Blueprints
++ user story
++ elements/assets
++ responsive
++ wireframe with flow/funcionality
+
+工具
+
++ Balasmiq
++ Mockup builder
++ sketch
++ axure
++ photoshop(psd)
+

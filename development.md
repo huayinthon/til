@@ -10,7 +10,11 @@ https://www.vagrantup.com/downloads.html
 
 `git config --global user.email Put@Your Email Here`
 
+<<<<<<< HEAD
 `git clone https://github.com/huayinthon/huayinthon.github.io.git ~/blog`
+=======
+`git clone https://github.com/huayinthon/til.git ~/blog`
+>>>>>>> 691ed1284a14cffcd6c843dd2d3bd288912ba84b
 
 # 啟動 vagrant 並 ssh 登入 vagrant box
 
