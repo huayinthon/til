@@ -14,11 +14,7 @@ categories: TIL
 
 
 ## 釋例 ##
-<<<<<<< HEAD
-下面就用[Vagrant](https://www.vagrantup.com/)來在Windows上建立一個Linux的VM開發環境，在[huayinthon專案](https://github.com/huayinthon/huayinthon.github.io)裡，小組成員[Jason](https://github.com/orgs/huayinthon/people/jasonatfleepio)提供了簡明的[安裝說明](https://github.com/huayinthon/huayinthon.github.io/blob/master/development.md)，我以這說明為例，讓我們秒速建立VM。
-=======
 下面就用[Vagrant](https://www.vagrantup.com/)來在Windows上建立一個Linux的VM開發環境，在[til專案](https://github.com/huayinthon/til)裡，小組成員[Jason](https://github.com/orgs/huayinthon/people/jasonatfleepio)提供了簡明的[安裝說明](https://github.com/huayinthon/til/blob/master/development.md)，我以這說明為例，讓我們秒速建立VM。
->>>>>>> 691ed1284a14cffcd6c843dd2d3bd288912ba84b
 
 
 步驟
