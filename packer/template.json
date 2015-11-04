@@ -5,8 +5,12 @@
 	},
 	"variables": {
 		"atlas_username": "{{env `ATLAS_USERNAME`}}",
+<<<<<<< HEAD
+		"atlas_name": "{{env `ATLAS_NAME`}}"
+=======
 		"atlas_name": "{{env `ATLAS_NAME`}}",
 		"tutum_token": "{{env `TUTUM_TOKEN`}}"
+>>>>>>> 691ed1284a14cffcd6c843dd2d3bd288912ba84b
 	},
 	"provisioners": [
 		{
@@ -22,10 +26,17 @@
 			],
 			"override": {
 				"virtualbox-iso": {
+<<<<<<< HEAD
+					"execute_command": "echo 'vagrant'|sudo -S bash '{{.Path}}'"
+				},
+				"vmware-iso": {
+					"execute_command": "echo 'vagrant'|sudo -S bash '{{.Path}}'"
+=======
 					"execute_command": "curl -Ls https://get.tutum.co/ | sudo -H sh -s {{user `tutum_token`}} ; echo 'vagrant'|sudo -S bash '{{.Path}}';"
 				},
 				"vmware-iso": {
 					"execute_command": "curl -Ls https://get.tutum.co/ | sudo -H sh -s {{user `tutum_token`}} ; echo 'vagrant'|sudo -S bash '{{.Path}}';"
+>>>>>>> 691ed1284a14cffcd6c843dd2d3bd288912ba84b
 				}
 			}
 		}
